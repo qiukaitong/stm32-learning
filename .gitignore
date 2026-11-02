@@ -1,0 +1,64 @@
+# ===== Keil MDK 编译产物 =====
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.uvguix.*
+*.uvoptx
+*.dep
+*.bak
+*.hex
+*.bin
+*.axf
+*.elf
+*.map
+*.lst
+*.o
+*.d
+*.crf
+*.htm
+*.lnp
+*.sct
+*.iex
+*.tra
+
+# ===== IAR =====
+Debug/
+Release/
+settings/
+*.ewt
+*.ewp.bak
+
+# ===== 通用编译产物 =====
+build/
+out/
+dist/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.so
+*.a
+*.pyc
+__pycache__/
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 敏感信息 =====
+*.pem
+*.key
+secrets.h
+config.local.h
+.env
+
+# ===== 大文件 =====
+*.mp4
+*.avi
+*.zip
+*.7z
+docs/raw/
